@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 11px;
+    border-bottom: 1px solid;
+    color: #3BB77E;
+}
+.navbar-nav ul{
+    display: flex;
+    margin-left: 30px;
+}
+.navbar-nav ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.399);
+}
+
+.navbar-info ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: -15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navbar-catacories */
+
+/*  shopping */
+.search-iconn{
+    position: absolute;
+    top:100px;
+    right:26px;
+}
+.search-iconn a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 8px;
+    color: #3BB77E;
+}
+.search-iconn span{
+    position: absolute;
+    right: 86%;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color:#3BB77E;
+}
+.search-iconn .two{
+    position: absolute;
+    right: 59%;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color:#3BB77E;
+}
+.search-iconn .three{
+    position: absolute;
+    right: 33%;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color:#3BB77E;
+}
+.search-iconn .four{
+    position: absolute;
+    right: 13%;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color:#3BB77E;
+}
+
+/*  form catacory */
+  
+  .container {
+    width: 50%;
+    height: 70px;
+    margin: 50px auto;
+    border: 1px solid red;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -42px;
+  }
+  
+  
+
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .category {
+    flex: 1;
+    margin-right: 10px;
+  }
+  input{
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+  
+  #category {
+    width: 55%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+  }
+  
+  .input-wrapper {
+    flex: 3;
+    display: flex;
+    align-items: center;
+  }
+  /* all catacories */
+  .all-browse{
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    background-color:#259e65;
+  }
+ 
+  .navbar-categories ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 50px;
+    margin-right: 270px;
+    
+  }
+  .navbar-categories ul li{
+    margin-left: 60px;
+    margin-bottom: 55px;
+  }
+
+  
+
+
+#product{
+ width: 100%;
+ height: 100vh;
+}
+.product-card{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.card-item{
+    width: 30%;
+    height: 520px;
+    border: 1px solid rgba(218, 218, 218, 0.699);
+    border-radius: 15px;
+    margin: 10px;
+
+}
+.card-item img{
+    width: 100%;
+    transition: 1s;
+}
+.card-item img:hover{
+   transform: scale(0.9);
+   overflow: hidden;
+
+  
+}
+
+.card-item span{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 15px 0 20px 0;
+    padding: 9px 20px 10px 20px;
+    background-color: #f74b81;
+    color: white;
+}
+
+/* ulduz */
+.star {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(/src/css/images/rating-stars.png); 
+    background-size: cover;
+  }
+
+  .product-container-content{
+    padding: 10px 25px;
+  }
+  .product-price{
+    display: flex;
+    justify-content: space-evenly ;
+  }
+  .product-price a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px 6px 25px;
+    border-radius: 4px;
+    background-color: #DEF9EC;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.7s;
+    color: gray;
+}
+.product-price i{
+    margin: 0px 5px;
+}
+
+        
+  .product-price a:hover{
+    background-color: #3BB77E;
+    color: white;
+  }
